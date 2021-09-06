@@ -1,0 +1,14 @@
+.search-bar
+{
+	border: 1px solid black; 
+	width: 25%;
+	margin: auto;
+}
+input
+{
+	border: none;
+}
+.cross-icon
+{
+	display: none;
+}
