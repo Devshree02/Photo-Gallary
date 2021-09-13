@@ -14,14 +14,16 @@
 
 
     <title>Photo Gallary</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   </head>
   <body>
     <!-- <img src="assests/images/bird-1.jpeg"> -->
     <div class = "container">
       <div class = "search-bar mt-5">
         <input type="search" placeholder = "Search here" id="searchInput">
-        <i class="fa fa-times mr-3 cross-icon" aria-hidden="true" id = "crossIcon"></i>
-        <i class="fa fa-search" aria-hidden="true" id = "searchIcon"></i>
+        <i class="fa fa-times" id = "crossIcon" data-click="cross"></i>
+        <i class="fa fa-search" id = "searchIcon" data-click="search"></i>
       </div>
     </div>
    <!--  <button type = "button" id = "check">check</button> -->
@@ -36,73 +38,16 @@
       <img src="assests/images/plane-1.jpeg" data-image="plane,aeroplane,aircraft">
       <img src="assests/images/plane-2.jpeg" data-image="plane,aeroplane,aircraft">
       <img src="assests/images/plane-3.jpeg" data-image="plane,aeroplane,aircraft">
-      <img src="assests/images/plate-1.jpeg" data-image="plate,aeroplane,aircraft">
-      <img src="assests/images/plate-2.jpeg" data-image="plate,aeroplane,aircraft">
-      <!-- Gallery -->
-      <!-- <div class="row" id = "row">
-        <div class="col-lg-4">
-          <img
-          src="assests/images/bird-1.jpeg"
-          class="w-100 shadow-1-strong rounded mb-4"
-          alt=""
-          data-image = "bird"
-          />
-
-          <img
-          src="assests/images/bird-2.jpeg"
-          class="w-100 shadow-1-strong rounded mb-4"
-          alt=""
-          data-image = "bird"
-          />
-
-          <img
-          src="assests/images/bird-3.jpeg"
-          class="w-100 shadow-1-strong rounded mb-4"
-          alt=""
-          data-image = "bird"
-          />
-        </div>
-
-        <div class="col-lg-4 mb-4 mb-lg-0">
-          <img
-          src="assests/images/bird-4.jpeg"
-          class="w-100 shadow-1-strong rounded mb-4"
-          alt=""
-          data-image = "bird"
-          />
-
-          <img
-          src="assests/images/car-1.jpg"
-          class="w-100 shadow-1-strong rounded mb-4"
-          alt=""
-          data-image = "car"
-          />
-        </div>
-
-        <div class="col-lg-4 mb-4 mb-lg-0">
-          <img
-          src="assests/images/car-2.jpeg"
-          class="w-100 shadow-1-strong rounded mb-4"
-          alt=""
-          data-image = "car"
-          />
-
-          <img
-          src="assests/images/car-3.jpeg"
-          class="w-100 shadow-1-strong rounded mb-4"
-          alt=""
-          data-image = "car"
-          />
-        </div>
-      </div> -->
-      <!-- Gallery -->
+      <img src="assests/images/plate-1.jpeg" data-image="plate,dish">
+      <img src="assests/images/plate-2.jpeg" data-image="plate,dish">
     </div>
-    <div class="container mt-5" id="searchResult">
+
+    <div class="container mt-5" id="searchResult" align="center">
       
     </div>
 
     
-    <script src="assests/js/custom.js">
+    <script src="assests/js/custom1.js">
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

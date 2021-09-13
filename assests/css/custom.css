@@ -8,10 +8,17 @@ input
 {
 	border: none;
 }
-.cross-icon
+/*.cross-icon
 {
 	display: none;
+	position: relative;
+	right: -50px;
 }
+.search-icon
+{
+	position: relative;
+	right: -15px;
+}*/
 img
 {
 	width: 350px;
